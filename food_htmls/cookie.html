@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Obaniel Cooking Website</title>
+    <link rel="stylesheet" href="../tableformatting.css" />
+  </head>
+  <body>
+    
+    <div class="container">
+      <form id="input-form">
+
+        <div class="heading-text">
+          <h1>Doughnut Ingredients</h1>
+        </div>
+
+        <div class="input">
+          <input type="text" id="inputBox" placeholder="Please Enter the Number of cookies you would like to obtain a recipee for"/>
+          <input type="submit" id="submitBtn" value="Generate">
+          <input type="reset" id="resetBtn" value="Reset">
+          <!-- We dont have to do anything about this for now. Javascript automatically detects the function of this button and implements it for us -->
+        </div>
+        <div class="input">
+          <div id="message"></div>
+          <textarea name="result" id="result" cols="7" rows="10" disabled></textarea>
+        </div>
+        <a href="../foodmenu.html" class="btn">🔙Back to Main Site</a>
+      </form>
+    </div>
+     <script src="../js-food/doughnut.js"></script>
+  </body>
+</html>
